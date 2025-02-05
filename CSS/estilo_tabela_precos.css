@@ -1,0 +1,212 @@
+/* Estilo Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins';
+}
+
+.geral {
+    width: 100%;
+}
+
+
+
+/* Seção Topo */
+.secao-topo {
+    height: 150px;
+    background-color: #2f86d6;
+    padding: 35px 0;
+    margin: 0 auto;
+}
+
+.container-topo {
+    position: relative;
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.logo-topo {
+    position: relative;
+    left: 5%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.logo-topo img {
+    width: 100px;
+}
+
+.texto-logo {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.texto-logo p {
+    color: #fff;
+    font-weight: 600;
+}
+
+.links {
+    position: absolute;
+    right: 10%;
+    top: 20%;
+}
+
+.links a {
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+
+
+/* Seção Principal */
+.secao-principal {
+    background-color: #fff;
+    padding: 100px 0;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container-principal {
+    width: 1024px;
+    margin: 0 auto;
+}
+table {
+    border-collapse: collapse;
+    width: 800px;
+    height: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.cor-fundo {
+    background-color: #f1f3f7;
+}
+
+thead p {
+    font-size: 9px;
+    color: #a89f9f;
+}
+
+.indicador {
+    padding-left: 20px;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: left;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+td {
+    border: 2px solid #f1f3f7;
+    font-size: 11px;
+    padding: 8px;
+}
+
+th {
+    padding: 8px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+.ponto {
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Seção Rodapé */
+.secao-rodape {
+    padding: 50px 0;
+    background-color: #2f86d6;
+    height: 250px;
+}
+
+.container-rodape {
+    width: 1024px;
+    margin: 0 auto;
+   
+}
+
+.logo-rodape {
+    width: 350px;
+    position: relative;
+    display: flex;
+    margin: 0 auto 20px;
+}
+
+.logo-rodape img {
+    width: 80px;
+}
+
+.logo-rodape .texto-logo-rodape {
+    position: absolute;
+    left: 95px;
+    top: 0;
+    padding: 2px;
+}
+.texto-logo-rodape p {
+    color: #fff;
+    font-weight: 600;
+}
+
+.texto-rodape {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    margin: 25px auto 50px;
+}
+
+.final-rodape {
+    background-color: #fff;
+    height: 50px;
+    text-align: center;
+    font-weight: 500;
+    padding: 10px;
+    margin: 0 auto;
+
+}
+
+.final-rodape a {
+    color: #2f86d6;
+    font-weight: bold;
+}
