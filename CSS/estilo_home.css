@@ -14,13 +14,34 @@
 /* Fim Estilo Global */
 
 /* Seção Topo */
-
-.logo-topo img {
-    width: 80px;
+.container-topo {
+    background-color: white;
+    padding: 35px 50px;
 }
 
-.logo-topo .texto-logo {
-    padding: 5px;
+.logo-topo {
+    max-width: 275px;
+}
+
+.links-topo {
+    max-width: 375px;
+}
+
+.links-topo a {
+    font-size: 18px;
+    color: #233032;
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.container-logo-imagem {
+    width: 100%;
+    height: 80%;
+}
+
+.container-logo-imagem img {
+    width: 100%;
+    height: 100%;
 }
 
 .logo-topo p {
@@ -28,12 +49,7 @@
     font-weight: 500;
 }
 
-.links a {
-    font-size: 18px;
-    color: #233032;
-    font-weight: bold;
-    margin-right: 5px;
-}
+
 
 
 
