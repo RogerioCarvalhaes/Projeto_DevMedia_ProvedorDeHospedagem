@@ -14,24 +14,6 @@
 /* Fim Estilo Global */
 
 /* Seção Topo */
-.secao-topo {
-    height: 100px;
-    background-color: #fff;
-    padding: 35px 0;
-    margin: 50px auto;
-}
-
-.container-topo {
-    position: relative;
-    width: 1024px;
-    margin: 0 auto;
-}
-
-.logo-topo {
-    position: relative;
-    display: flex;
-    margin: -3% auto;
-}
 
 .logo-topo img {
     width: 80px;
@@ -44,12 +26,6 @@
 .logo-topo p {
     color: #2f86d6;
     font-weight: 500;
-}
-
-.links {
-    position: absolute;
-    top: 50%;
-    right: 0;
 }
 
 .links a {
