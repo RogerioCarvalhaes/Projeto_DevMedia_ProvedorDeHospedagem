@@ -17,6 +17,8 @@
 .container-topo {
     background-color: white;
     padding: 35px 50px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .logo-topo {
