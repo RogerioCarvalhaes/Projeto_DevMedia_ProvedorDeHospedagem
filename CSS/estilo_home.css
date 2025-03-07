@@ -23,6 +23,9 @@
 
 .logo-topo {
     max-width: 275px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .links-topo {
