@@ -68,20 +68,21 @@
     max-width: 1024px;
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .texto-banner {
     color: #fff;
     padding: 10px 20px;
-    max-width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 20px;
+    flex: 1 1 300px;
 }
 
 .imagem-banner {
-    max-width: 60%;
+    flex: 1 1 468px;
 }
 
 .imagem-banner img {
