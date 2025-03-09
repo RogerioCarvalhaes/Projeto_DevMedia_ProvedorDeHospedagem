@@ -101,10 +101,10 @@
 }
 
 .container-anuncio {
-    position: relative;
-    width: 1024px;
-    margin: 0 auto;
+    width: 100%;
+    max-width: 1024px;
     display: flex;
+    
 }
 .chamada-anuncio {
     width: 600px;
@@ -125,8 +125,6 @@
 }
 
 .botao-anuncio1 {
-    position: absolute;
-    right: 0;
     background-color: #2f86d6;
     padding: 10px;
     border-radius: 4px;
