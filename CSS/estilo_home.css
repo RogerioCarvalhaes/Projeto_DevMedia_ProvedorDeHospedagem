@@ -107,7 +107,15 @@
     
 }
 .chamada-anuncio {
-    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    flex: 1 1 600px;
+}
+
+.botao-anuncio1, .botao-anuncio2 {
+
 }
 
 .secao-anuncio1 {
